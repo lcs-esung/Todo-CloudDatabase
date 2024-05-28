@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A0E19122BFF955100780166 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E19112BFF955100780166 /* Supabase.swift */; };
+		2A11A1AF2C06108100F0E0FA /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A11A1AE2C06108100F0E0FA /* NewItemView.swift */; };
 		2A42C9F72BFE8A2700EEDE7F /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42C9F62BFE8A2700EEDE7F /* TodoListViewModel.swift */; };
 		2A42C9FA2BFF944900EEDE7F /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 2A42C9F92BFF944900EEDE7F /* Auth */; };
 		2A42C9FC2BFF944900EEDE7F /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 2A42C9FB2BFF944900EEDE7F /* Functions */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2A0E19112BFF955100780166 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		2A11A1AE2C06108100F0E0FA /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		2A42C9F62BFE8A2700EEDE7F /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		2A695EB62C01122E003FCA96 /* AppEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryView.swift; sourceTree = "<group>"; };
 		2A695EB82C011254003FCA96 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				814A08FB2BC41BC500921E4F /* ItemView.swift */,
 				2A695EB62C01122E003FCA96 /* AppEntryView.swift */,
 				2A695EB82C011254003FCA96 /* AuthView.swift */,
+				2A11A1AE2C06108100F0E0FA /* NewItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A11A1AF2C06108100F0E0FA /* NewItemView.swift in Sources */,
 				815D9D7F2BC413800050957E /* LandingView.swift in Sources */,
 				2A0E19122BFF955100780166 /* Supabase.swift in Sources */,
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
